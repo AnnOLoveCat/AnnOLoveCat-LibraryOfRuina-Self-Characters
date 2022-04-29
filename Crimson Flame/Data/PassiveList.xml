@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PassiveXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Passive ID="1">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>1</Cost>
+    <Script>projmoon_custom_shimmering</Script>
+    <Name>Shimmering</Name>
+    <Desc>At the start of each Scene, exhaust all pages in hand and deck; add new pages to hand. Their Cost becomes 0.</Desc>
+  </Passive>
+  <Passive ID="2">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>false</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>8</Cost>
+    <Script>dragon_blood</Script>
+    <Name>Crimson Flame</Name>
+    <Desc>Emotion Levels 1, 3 or More, Will Get More Burn(Max 10)Strength(Max 2),If Take Damage,The Attacker Will Take 3 Burn,When Start Parrying Will Follow Emotion Levels Take Diffrent Damage,This Passive Can Use Personal EGO "Anger Shout"</Desc>
+  </Passive>
+  <Passive ID="3">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Rare</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>4</Cost>
+    <Script>absorb_blood</Script>
+    <Name>Lóng xuè fùsū</Name>
+    <Desc>Do 15 Or More Damage Will Recover Self Burn/2 Hp,Lower Than 10 Then Take 10 Damage.</Desc>
+  </Passive>
+  <Passive ID="4">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>6</Cost>
+    <Script>anger_burn</Script>
+    <Name>Annu</Name>
+    <Desc>Start Parrying If Target on Burn,Recover 6 Staggers Resist Self Offensive Dice Max Value +2</Desc>
+  </Passive>
+</PassiveXmlRoot>

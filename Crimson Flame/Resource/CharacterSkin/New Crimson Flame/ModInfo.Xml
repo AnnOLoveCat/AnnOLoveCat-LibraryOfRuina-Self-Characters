@@ -1,0 +1,55 @@
+<ModInfo>
+  <ClothInfo>
+    <Name>New Crimson Flame</Name>
+    <Default>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="1.430511E-06" pivot_y="-409.1998" />
+      <Head head_x="20.7" head_y="418.6" rotation="0" head_enable="False" />
+    </Default>
+    <Guard>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="27.6" pivot_y="-452.8998" />
+      <Head head_x="6.9" head_y="381.8" rotation="8.495586" head_enable="False" />
+    </Guard>
+    <Evade>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="0" pivot_y="-400" />
+      <Head head_x="29.9" head_y="414" rotation="8.410614" head_enable="False" />
+    </Evade>
+    <Damaged>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="0" pivot_y="-400" />
+      <Head head_x="2.300001" head_y="391" rotation="2.463663" head_enable="False" />
+    </Damaged>
+    <Slash>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="138" pivot_y="-402.2999" />
+      <Head head_x="27.60002" head_y="363.4" rotation="2.548689" head_enable="False" />
+    </Slash>
+    <Penetrate>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="133.4" pivot_y="-441.3998" />
+      <Head head_x="32.20001" head_y="402.5" rotation="2.548678" head_enable="False" />
+    </Penetrate>
+    <Hit>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="158.7" pivot_y="-425.2999" />
+      <Head head_x="16.10002" head_y="379.5001" rotation="7.645969" head_enable="False" />
+    </Hit>
+    <Move>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="16.09999" pivot_y="-314.8998" />
+      <Head head_x="-13.8" head_y="303.6" rotation="11.80884" head_enable="False" />
+    </Move>
+    <Fire>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="138" pivot_y="-478.2" />
+      <Head head_x="34.50003" head_y="464.6" rotation="0" head_enable="False" />
+    </Fire>
+    <Aim>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="135.7" pivot_y="-475.9" />
+      <Head head_x="34.50005" head_y="466.9" rotation="3.313301" head_enable="False" />
+    </Aim>
+  </ClothInfo>
+</ModInfo>

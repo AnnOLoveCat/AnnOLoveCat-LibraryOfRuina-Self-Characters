@@ -1,0 +1,55 @@
+<ModInfo>
+  <ClothInfo>
+    <Name>Lóng shēn</Name>
+    <Default>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="34.5" pivot_y="-388.5" />
+      <Head head_x="20.69999" head_y="434.7" rotation="0" head_enable="True" />
+    </Default>
+    <Guard>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="6.899998" pivot_y="-507.4" />
+      <Head head_x="18.4" head_y="404.8" rotation="4.247793" head_enable="True" />
+    </Guard>
+    <Evade>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-36.8" pivot_y="-347.1" />
+      <Head head_x="89.7" head_y="439.3" rotation="3.313301" head_enable="True" />
+    </Evade>
+    <Damaged>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="11.5" pivot_y="-434.4999" />
+      <Head head_x="27.59999" head_y="416.3" rotation="8.495586" head_enable="True" />
+    </Damaged>
+    <Slash>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="202.4" pivot_y="-498.8998" />
+      <Head head_x="13.80002" head_y="391" rotation="9.34516" head_enable="True" />
+    </Slash>
+    <Penetrate>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="124.2" pivot_y="-512" />
+      <Head head_x="18.40001" head_y="404.8" rotation="0" head_enable="True" />
+    </Penetrate>
+    <Hit>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="204.7" pivot_y="-512" />
+      <Head head_x="-16.09999" head_y="400.2" rotation="11.80884" head_enable="True" />
+    </Hit>
+    <Move>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="20.69997" pivot_y="-383.9" />
+      <Head head_x="-66.7" head_y="308.2" rotation="15.2071" head_enable="True" />
+    </Move>
+    <Fire>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="144.9" pivot_y="-505.1" />
+      <Head head_x="32.20004" head_y="480.7" rotation="0" head_enable="True" />
+    </Fire>
+    <Aim>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="289.8" pivot_y="-502.8" />
+      <Head head_x="32.19998" head_y="489.9" rotation="0" head_enable="True" />
+    </Aim>
+  </ClothInfo>
+</ModInfo>

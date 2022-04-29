@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BookXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.1</Version>
+  <Book ID="1">
+    <Name>The Stealer Of Lóng shēn</Name>
+    <TextId>-1</TextId>
+    <BookIcon />
+    <EquipEffect>
+      <HpReduction>0</HpReduction>
+      <HP>700</HP>
+      <DeadLine>0</DeadLine>
+      <Break>400</Break>
+      <SpeedMin>4</SpeedMin>
+      <Speed>6</Speed>
+      <SpeedDiceNum>0</SpeedDiceNum>
+      <SResist>Endure</SResist>
+      <PResist>Normal</PResist>
+      <HResist>Endure</HResist>
+      <SBResist>Normal</SBResist>
+      <PBResist>Endure</PBResist>
+      <HBResist>Endure</HBResist>
+      <MaxPlayPoint>4</MaxPlayPoint>
+      <StartPlayPoint>4</StartPlayPoint>
+      <AddedStartDraw>0</AddedStartDraw>
+      <Passive Pid="@origin">10008</Passive>
+      <Passive Pid="@origin">240227</Passive>
+      <Passive Pid="@origin">260006</Passive>
+      <Passive Pid="@origin">241001</Passive>
+      <Passive>2</Passive>
+      <Passive>3</Passive>
+    </EquipEffect>
+    <Rarity>Unique</Rarity>
+    <CharacterSkin>Lóng shēn</CharacterSkin>
+    <CharacterSkinType>Custom</CharacterSkinType>
+    <SkinGender>N</SkinGender>
+    <Chapter>7</Chapter>
+    <Episode>-1</Episode>
+    <RangeType>Hybrid</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>true</RandomFace>
+    <SpeedDiceNum>1</SpeedDiceNum>
+    <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
+    <SoundInfo Motion="J" WinExternal="false" Win="Xiao_Stong_Upper" LoseExternal="false" Lose="Yan_Guard" />
+    <SoundInfo Motion="Z" WinExternal="false" Win="Elena_StrongAtk" LoseExternal="false" Lose="Yan_Guard" />
+    <SoundInfo Motion="H" WinExternal="false" Win="Xiao_Vert" LoseExternal="false" Lose="Yan_Guard" />
+    <SoundInfo Motion="G" WinExternal="false" Win="Cry_Main_Guard_Win" LoseExternal="false" Lose="Yan_Guard" />
+    <SoundInfo Motion="E" WinExternal="false" Win="Claw_Evasion" LoseExternal="false" Lose="Yan_Guard" />
+    <SoundInfo Motion="F" WinExternal="false" Win="Thumb_Gun_Normal" LoseExternal="false" Lose="Thumb_Gun_Reload" />
+  </Book>
+  <Book ID="2">
+    <Name>Snakes</Name>
+    <TextId>-1</TextId>
+    <BookIcon />
+    <EquipEffect>
+      <HpReduction>0</HpReduction>
+      <HP>135</HP>
+      <DeadLine>0</DeadLine>
+      <Break>60</Break>
+      <SpeedMin>2</SpeedMin>
+      <Speed>6</Speed>
+      <SpeedDiceNum>0</SpeedDiceNum>
+      <SResist>Normal</SResist>
+      <PResist>Normal</PResist>
+      <HResist>Endure</HResist>
+      <SBResist>Normal</SBResist>
+      <PBResist>Normal</PBResist>
+      <HBResist>Normal</HBResist>
+      <MaxPlayPoint>4</MaxPlayPoint>
+      <StartPlayPoint>3</StartPlayPoint>
+      <AddedStartDraw>0</AddedStartDraw>
+      <Passive Pid="@origin">241301</Passive>
+      <Passive Pid="@origin">250001</Passive>
+      <Passive Pid="@origin">10001</Passive>
+      <Passive>2</Passive>
+      <Passive>3</Passive>
+    </EquipEffect>
+    <Rarity>Common</Rarity>
+    <CharacterSkin>Lóng shēn</CharacterSkin>
+    <CharacterSkinType>Custom</CharacterSkinType>
+    <SkinGender>N</SkinGender>
+    <Chapter>7</Chapter>
+    <Episode>-1</Episode>
+    <RangeType>Hybrid</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>true</RandomFace>
+    <SpeedDiceNum>1</SpeedDiceNum>
+    <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
+  </Book>
+</BookXmlRoot>
