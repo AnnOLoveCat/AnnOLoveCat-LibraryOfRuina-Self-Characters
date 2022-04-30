@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PassiveXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Passive ID="1">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>8</Cost>
+    <Script>FlowerPower</Script>
+    <Name>Fuchsia Flower</Name>
+    <Desc>When Win A Parrying, Effect Target 2 Aroma, If Target Have 1 Or More Aroma, Effect 2 Vulnerables(Max 4),This Passive Can Use Personal EGO "Poison Petal"</Desc>
+  </Passive>
+  <Passive ID="2">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>4</Cost>
+    <Script>stay_serious</Script>
+    <Name>shuchu</Name>
+    <Desc>All Offensive dice on the page selected in the fourth Speed dice slot gain 3 Power.</Desc>
+  </Passive>
+</PassiveXmlRoot>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiceCardXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.1</Version>
+  <Card ID="1">
+    <Name>Calm Slash</Name>
+    <TextId>-1</TextId>
+    <Artwork>Clean Up.png</Artwork>
+    <Rarity>Common</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script>drawCard2</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="6" Dice="10" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="AwlOfNight_H" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="2">
+    <Name>Blossom</Name>
+    <TextId>-1</TextId>
+    <Artwork>Sharpened Blade.png</Artwork>
+    <Rarity>Uncommon</Rarity>
+    <Option>ExhaustOnUse</Option>
+    <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
+    <Script>attackmode1</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="J_J" Script="bleeding2atk" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="J_J" Script="bleeding2atk" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="3">
+    <Name>Splash Flowers Disperse</Name>
+    <TextId>-1</TextId>
+    <Artwork>Sharpened Blade.png</Artwork>
+    <Rarity>Uncommon</Rarity>
+    <Option>ExhaustOnUse</Option>
+    <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script>attackmode2</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="7" Dice="12" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="J_J" Script="vulnerable2atk" ActionScript="" Desc="" />
+      <Behaviour Min="7" Dice="9" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="J_Z" Script="bleeding2atk" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="4">
+    <Name>Splash Flowers Instant</Name>
+    <TextId>-1</TextId>
+    <Artwork>Sharpened Blade.png</Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script>attackmode3</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="8" Dice="15" Type="Atk" Detail="Slash" Motion="Z" MotionDefault="N" EffectRes="Shi_Z" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="5">
+    <Name>Petal Fall</Name>
+    <TextId>-1</TextId>
+    <Artwork>Dark Cloud.png</Artwork>
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script>angela_heaven</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="6" Dice="8" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="J_G" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="J_Z" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="J_H" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="6">
+    <Name>Sakuuki</Name>
+    <TextId>-1</TextId>
+    <Artwork>Sky-Clearing Cut.png</Artwork>
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="5" Dice="7" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="J_Z" Script="lovetownNextPower" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="J_J" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="7">
+    <Name>Protect Of Fusica</Name>
+    <TextId>-1</TextId>
+    <Artwork>Flip the Table_ Low at Night, High at Day.png</Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
+    <Script>protection3start</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="7" Dice="11" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="J_G" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="9" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="J_G" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="J_J" Script="bleeding3atk" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="8">
+    <Name>Dodge Leaf</Name>
+    <TextId>-1</TextId>
+    <Artwork>Relay_ Shuffle Hands.png</Artwork>
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="6" Dice="11" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="powerDownNext2pwTarget" ActionScript="" Desc="" />
+      <Behaviour Min="7" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="J_J" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="9">
+    <Name>Guard Counter</Name>
+    <TextId>-1</TextId>
+    <Artwork>Sakura.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="7" Dice="12" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="J_G" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="7" Dice="9" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="ThePurpleTearJ_J" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="7" Dice="11" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="10">
+    <Name>Flower Ring</Name>
+    <TextId>-1</TextId>
+    <Artwork>Ink Over.png</Artwork>
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="1" Affection="One" EmotionLimit="0" />
+    <Script>energy3AndDraw1</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="5" Dice="7" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="J_H" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="8" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="J_J" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="11">
+    <Name>Three Slain Chain</Name>
+    <TextId>-1</TextId>
+    <Artwork>Crimson Claws.png</Artwork>
+    <Rarity>Unique</Rarity>
+    <Spec Range="Near" Cost="4" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="9" Dice="17" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="ThePurpleTearJ_H" Script="repeat3" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="12">
+    <Name>Poison Petal</Name>
+    <TextId>-1</TextId>
+    <Artwork>Bloodspreading.png</Artwork>
+	<Option>EgoPersonal</Option>
+	<Option>Personal</Option>
+    <Rarity>Unique</Rarity>
+    <Spec Range="Near" Cost="5" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="20" Dice="27" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="ThePurpleTearH_H" Script="blackSilenceSpecialDice" ActionScript="" Desc="" />
+      <Behaviour Min="9" Dice="11" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="J_G" Script="bleeding6atk" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>4</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+</DiceCardXmlRoot>
