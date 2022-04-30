@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PassiveXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Passive ID="1">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>8</Cost>
+    <Script>Charge_Energy</Script>
+    <Name>Periwinkle Flash</Name>
+    <Desc>Emotion Levels 1, 3 or More, Will Get More Charges,If Charges 10 or More,Recover Stagger Resist With Self's Charges Value, Over 15 Need Spend 5 Charge To Recover Stagger With Self Charges Value,This Passive Can Use Personal EGO "Periwinkle  Flashs"</Desc>
+  </Passive>
+  <Passive ID="2">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Rare</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>6</Cost>
+    <Script>Fight_Stagger</Script>
+    <Name>ReCharge </Name>
+    <Desc>If Hit The Target 5 Times Or More,Can Gain Charges With HIt Times, Or Take Stagger Damage With Hit Times</Desc>
+  </Passive>
+  <Passive ID="3">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>4</Cost>
+    <Script>anger_charge</Script>
+    <Name>Mika</Name>
+    <Desc>Start Parrying , If Self Has 5 Or More Charges,Self All Dice Max Value +2 And Recover 6 Hp,When Win A Parry Inflict Target 2 Paralysis(Max 4 Times)</Desc>
+  </Passive>
+</PassiveXmlRoot>
