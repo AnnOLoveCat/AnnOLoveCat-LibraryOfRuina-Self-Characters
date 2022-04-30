@@ -1,0 +1,55 @@
+<ModInfo>
+  <ClothInfo>
+    <Name>Snowy Cloud</Name>
+    <Default>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="20.7" pivot_y="-358.6" />
+      <Head head_x="18.4" head_y="407.1" rotation="0" head_enable="True" />
+    </Default>
+    <Guard>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-87.4" pivot_y="-422.9999" />
+      <Head head_x="46.00001" head_y="423.2" rotation="0" head_enable="True" />
+    </Guard>
+    <Evade>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-34.5" pivot_y="-395.3999" />
+      <Head head_x="20.7" head_y="407.1" rotation="8.410614" head_enable="True" />
+    </Evade>
+    <Damaged>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-32.2" pivot_y="-395.4" />
+      <Head head_x="9.199999" head_y="404.8" rotation="0" head_enable="True" />
+    </Damaged>
+    <Slash>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-41.39999" pivot_y="-418.3999" />
+      <Head head_x="29.9" head_y="400.2" rotation="0" head_enable="True" />
+    </Slash>
+    <Penetrate>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="163.3" pivot_y="-480.4999" />
+      <Head head_x="9.200012" head_y="365.7" rotation="0" head_enable="True" />
+    </Penetrate>
+    <Hit>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-36.8" pivot_y="-420.6999" />
+      <Head head_x="25.3" head_y="397.9" rotation="7.56104" head_enable="True" />
+    </Hit>
+    <Move>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-55.19998" pivot_y="-395.3998" />
+      <Head head_x="-9.199997" head_y="370.3" rotation="7.56104" head_enable="True" />
+    </Move>
+    <Fire>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="167.9" pivot_y="-482.8" />
+      <Head head_x="6.900009" head_y="370.3" rotation="0" head_enable="True" />
+    </Fire>
+    <Aim>
+      <Direction>Side</Direction>
+      <Pivot pivot_x="156.4" pivot_y="-475.9" />
+      <Head head_x="16.10002" head_y="361.1001" rotation="0" head_enable="True" />
+    </Aim>
+  </ClothInfo>
+</ModInfo>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PassiveXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Passive ID="1">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>false</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>8</Cost>
+    <Script>heavy_fog</Script>
+    <Name>Snowy Cloud</Name>
+    <Desc>At the start Will Gain 5 Smoke,When Start Self Smoke Low Then 3, Get 4 Disarmed,Feeble,When Win A Parrying Will Gain 1 Endurance(Max 3),Effect Target 1 Feeble,Parrying Target Self Effect 5 or More Smoke,Effect 1 Bound,This Passive Can Use Personal EGO "Dispel The Cloud"</Desc>
+  </Passive>
+  <Passive ID="2">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>4</Cost>
+    <Script>focus_recover</Script>
+    <Name>kāi yún jiàn rì</Name>
+    <Desc>Self Smoke At Least 1, Will Recover With Self Smoke Value, Or Take 10 Staggers, Gain 5 Smoke,</Desc>
+  </Passive>
+</PassiveXmlRoot>
